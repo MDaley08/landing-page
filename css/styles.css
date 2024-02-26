@@ -148,29 +148,34 @@ button {
     align-items: center;
     justify-content: center;
     flex: 1;
-    padding: 100px;
+    padding: 100px 220px;
 }
 
 .box {
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: #F9FAF8;
     background-color: #3882F6;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 800;
-    padding: 20px 100px;
-}
-
-.box .text{
-
+    padding: 50px 100px;
+    flex: 1;
+    gap: 150px;
 }
 
 .box .text p {
-    font-weight: 400;
-    margin: 5px;
+    color: #f9faf8d0;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 5px 0;
 }
 
 .box button {
     outline: solid 2px white;
+    align-self: center;
+    height: min-content;
 }
 
 /* footer */
@@ -181,8 +186,5 @@ button {
     color: #f9faf8d8;
     background-color: #1F2937;
     padding: 35px 0;
+    gap: 10px;
 }
-
-
-
-
